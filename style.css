@@ -1,0 +1,177 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Start CSS */
+
+/* Body */
+
+body {
+  background-color: red;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+
+.navigation {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+}
+
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.navbar-brand img {
+  width: 280px;
+  height: auto;
+  margin-top: -4px;
+  padding: 14px 15px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding: 30px;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  color: #000;
+}
+
+.menu a:hover {
+  color: #c79538;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu .active {
+  color: #c79538;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url(img/index-main-image.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 730px;
+}
+.hero .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 300px 0;
+}
+.hero .text {
+  width: 580px;
+}
+.hero h2 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: "Lora", serif;
+  line-height: 1.1em;
+  margin: 15px 0;
+}
+
+.hero p {
+  color: #4e4e4e;
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 1.1em;
+}
+
+/* Seguradoras */
+
+.seguradoras {
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5% 8%;
+  height: auto;
+  width: auto;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: rgba(210, 210, 210, 0.7);
+}
+
+.seguradoras img {
+  height: 10vh;
+  max-width: 14%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Servicos */
+
+.servicos .container {
+  display: flex;
+  margin: 0 auto;
+  padding: 1.5% 8%;
+  height: auto;
+  width: auto;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
