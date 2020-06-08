@@ -15,27 +15,44 @@
     <title>Cantagalli Seguradora</title>
   </head>
   <body>
+    <a name="top"></a>
     <header>
+      <div class="topnav">
+        <a href="#home" class="active">
+          <img src="img/logo-cantagalli.png" alt="Cantagalli Seguros"
+        /></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#topo">Home</a>
+          <a href="#quem-somos">Sobre nós</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
       <div class="navigation">
         <div class="container">
           <div class="navbar-brand">
-            <a href="#">
+            <a href="/">
               <img src="img/logo-cantagalli.png" alt="Cantagalli Seguros"
             /></a>
           </div>
           <div class="menu">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <a href="#topo">Home</a>
               </li>
               <li>
-                <a href="#">Sobre nós</a>
+                <a href="#quem-somos">Sobre nós</a>
               </li>
               <li>
                 <a href="#servicos">Serviços</a>
               </li>
               <li>
-                <a href="#">Fale Conosco</a>
+                <a href="#contato">Fale Conosco</a>
               </li>
             </ul>
           </div>
@@ -53,20 +70,67 @@
             class="btn-contato"
             href="http://www.coteconosco.com.br:63100/Calculo?cor=cantagalli"
             target="_blank"
-            >Calcule seu seguro aqui</a
+            >Calcule seu seguro automotivo aqui</a
           >
         </div>
       </div>
     </section>
     <section class="seguradoras">
-      <img src="img/seguradoras/porto-seguro.svg" alt="Porto Seguro" />
-      <img src="img/seguradoras/azul-seguros.jpeg" alt="Azul Seguros" />
-      <img src="img/seguradoras/itau-seguros.png" alt="Itaú Seguros" />
-      <img src="img/seguradoras/tokio-marine.png" alt="Tokio Marine" />
-      <img src="img/seguradoras/sulamerica.png" alt="SulAmérica Seguros" />
-      <img src="img/seguradoras/bradesco.svg" alt="Bradesco Seguros" />
-      <img src="img/seguradoras/ituran-seguro.jpg" alt="Ituran Seguros" />
-      <img src="img/seguradoras/suhai.png" alt="Suhai Seguros" />
+      <div>
+        <img src="img/seguradoras/porto-seguro.svg" alt="Porto Seguro" />
+      </div>
+      <div>
+        <img src="img/seguradoras/azul-seguros.jpeg" alt="Azul Seguros" />
+      </div>
+      <div>
+        <img src="img/seguradoras/itau-seguros.png" alt="Itaú Seguros" />
+      </div>
+      <div>
+        <img src="img/seguradoras/tokio-marine.png" alt="Tokio Marine" />
+      </div>
+      <div>
+        <img src="img/seguradoras/sulamerica.png" alt="SulAmérica Seguros" />
+      </div>
+      <div>
+        <img src="img/seguradoras/bradesco.svg" alt="Bradesco Seguros" />
+      </div>
+      <div>
+        <img src="img/seguradoras/ituran-seguro.jpg" alt="Ituran Seguros" />
+      </div>
+      <div><img src="img/seguradoras/suhai.png" alt="Suhai Seguros" /></div>
+    </section>
+    <section class="quem-somos">
+      <a name="quem-somos"></a>
+      <div class="container">
+        <h2>
+          Quem somos
+        </h2>
+        <p>
+          A constituição da Cantagalli Seguros foi em fevereiro de 1991, tendo
+          como principal objetivo apresentar nossos serviços com conceitos
+          modernos e soluções rápidas, dentro das expectativas atuais. O
+          corretor responsável atua no mercado segurador há 40 anos.
+        </p>
+        <p>
+          Com uma história de 29 anos no mercado, a Cantagalli Seguros
+          orgulha-se pelos serviços prestados e a cada ano consolida-se como uma
+          empresa forte com potencial técnico ainda maior para auxiliar seus
+          clientes.
+        </p>
+        <p>
+          Cadastrada na SUSEP (Superintendência de Seguros Privados) entidade
+          essa ligada diretamente ao Ministério da Fazenda, estamos sempre
+          participando de Palestras e Congressos para poder orientar ainda
+          melhor nossos clientes com as constantes mudanças que ocorrem no
+          setor.
+        </p>
+        <p>
+          Operamos com diversas Seguradoras, nosso principal objetivo ao
+          escolher essas Seguradoras é de cada vez mais proporcionar aos nossos
+          clientes empresas onde a solidez do nome já deixa explicito a
+          qualidade dos serviços oferecidos.
+        </p>
+      </div>
     </section>
     <section class="nossos-servicos">
       <a name="servicos"></a>
@@ -135,27 +199,52 @@
       </div>
     </section>
     <footer>
+      <a name="contato"></a>
       <div class="container">
         <div class="telefone">
           <div class="text">
-            <div><i class="fas fa-phone-alt fa-lg"></i></div>
+            <div></div>
             <p>Telefone</p>
           </div>
           <div class="numero">
-            <p>(11) 2533-0299</p>
-            <p>(11) 98314-7206</p>
+            <div class="tel-fixo">
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:+55-11-2533-0299">(11) 2533-0299</a>
+            </div>
+
+            <div class="whatsapp">
+              <a
+                href="https://api.whatsapp.com/send?phone=5511983147206"
+                target="_blank"
+                ><i class="fa fa-whatsapp" aria-hidden="true"></i
+              ></a>
+              <a href="tel:+55-11-98314-7206">(11) 98314-7206</a>
+            </div>
           </div>
         </div>
         <div class="email">
           <div class="text">
-            <div><i class="fas fa-envelope fa-lg"></i></div>
             <p>E-mail</p>
           </div>
+          <i class="fas fa-envelope"></i>
           <a href="mailto:cantagalli@cantagalli.com.br"
             >cantagalli@cantagalli.com.br</a
           >
         </div>
       </div>
     </footer>
+    <span class="arrow-up"
+      ><a href="#top"><i class="fas fa-arrow-up"></i></a
+    ></span>
   </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 </html>
