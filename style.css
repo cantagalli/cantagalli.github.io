@@ -83,13 +83,18 @@ body {
   align-items: center;
   margin: auto;
   max-width: 1140px;
+  height: 100%;
+}
+
+.navbar-brand {
+  max-width: 220px;
+  margin-top: -4px;
+  padding: 14px 15px;
 }
 
 .navbar-brand img {
-  max-width: 280px;
+  width: 100%;
   height: auto;
-  margin-top: -4px;
-  padding: 14px 15px;
 }
 
 .menu ul {
@@ -155,7 +160,7 @@ body {
 /* Hero */
 
 .hero {
-  height: 78vh;
+  height: 73vh;
   padding: 120px 50px;
   background: linear-gradient(
       rgba(255, 255, 255, 0.4),
@@ -169,6 +174,7 @@ body {
 .hero .container {
   max-width: 1140px;
   margin: auto;
+  max-height: 100%;
 }
 .hero .text {
   max-width: 580px;
@@ -401,6 +407,9 @@ footer .email a:hover {
   }
   .topnav {
     display: block;
+  }
+  .hero {
+    height: 77vh;
   }
   .seguradoras {
     padding: 10px 10px;
