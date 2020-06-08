@@ -56,7 +56,6 @@ select {
 /* Body */
 
 body {
-  background-color: red;
   font-family: "Roboto", sans-serif;
 }
 
@@ -166,12 +165,52 @@ body {
 
 /* Servicos */
 
-.servicos .container {
+.nossos-servicos {
+  padding: 50px;
+  text-align: center;
+}
+
+.nossos-servicos .container {
+  margin: auto;
+  width: 1170px;
+}
+
+.nossos-servicos h2 {
+  text-align: center;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #c79538;
+}
+
+.servicos-container {
   display: flex;
-  margin: 0 auto;
-  padding: 1.5% 8%;
-  height: auto;
-  width: auto;
-  flex-wrap: nowrap;
   justify-content: space-around;
+}
+
+.servico {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.servico h3 {
+  font-size: 24px;
+  margin: 22px 0 11px;
+  font-weight: 500;
+}
+
+.servico p {
+  font-size: 14px;
+  margin: 0 0 11px;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.servicos-container img {
+  margin-top: 30px;
+  border-radius: 5px;
+  max-width: 100%;
 }
