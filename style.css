@@ -53,6 +53,10 @@ select {
 
 /* Start CSS */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Body */
 
 body {
