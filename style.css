@@ -75,7 +75,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: auto;
   width: 1140px;
 }
 
@@ -130,6 +130,7 @@ body {
 }
 .hero .text {
   width: 580px;
+  margin-bottom: 20px;
 }
 .hero h2 {
   font-size: 70px;
